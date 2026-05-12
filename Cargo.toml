@@ -1,0 +1,33 @@
+[package]
+name = "tip-to-tip-efficiency"
+version = "0.1.0"
+edition = "2021"
+description = "A focused Rust model of the tip-to-tip efficiency thought experiment."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+documentation = "https://docs.rs/tip-to-tip-efficiency"
+keywords = ["simulation", "scheduling", "optimization", "comedy"]
+categories = ["algorithms", "simulation"]
+include = [
+    "Cargo.toml",
+    "Cargo.lock",
+    "README.md",
+    "src/**/*.rs",
+    "benches/**/*.rs",
+    "tests/**/*.rs",
+    "examples/**/*.rs",
+    "media/**/*.png",
+    "scripts/*.sh",
+]
+
+[lib]
+name = "tip_to_tip"
+path = "src/lib.rs"
+
+[[bench]]
+name = "tip_to_tip"
+harness = false
+
+[dev-dependencies]
+criterion = "0.8"
+proptest = "1"
