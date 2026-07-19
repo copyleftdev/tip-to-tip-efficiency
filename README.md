@@ -1,5 +1,7 @@
 # tip-to-tip-efficiency
 
+[![Tip my tokens](https://tokentip.to/badge/copyleftdev.svg?logo=1)](https://tokentip.to/@copyleftdev)
+
 ![Tip-to-tip efficiency schematic](media/logo.png)
 
 A focused Rust implementation of the *Silicon Valley* tip-to-tip efficiency
